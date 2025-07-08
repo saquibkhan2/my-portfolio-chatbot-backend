@@ -39,7 +39,7 @@ app.post('/chat', async (req, res) => {
                 'Authorization': `Bearer ${PERPLEXITY_API_KEY}`
             },
             body: JSON.stringify({
-                model: 'sonar-small',
+                model: 'sonar-medium-online',
                 messages: messages
             })
         });
