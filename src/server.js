@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const { ChatPerplexity } = require("@langchain/community/chat_models/perplexity");
+const { ChatPerplexity } = require("@langchain/community/chat_models");
 const { ChatPromptTemplate } = require("@langchain/core/prompts");
 const { StringOutputParser } = require("@langchain/core/output_parsers");
 
