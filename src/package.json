@@ -13,6 +13,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "@langchain/community": "^0.0.50",
+    "@langchain/core": "^0.1.60",
+    "langchain": "^0.1.0"
   }
 }
