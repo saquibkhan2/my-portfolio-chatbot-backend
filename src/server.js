@@ -39,7 +39,7 @@ app.post('/chat', async (req, res) => {
                 'Authorization': `Bearer ${PERPLEXITY_API_KEY}`
             },
             body: JSON.stringify({
-                model: 'gpt-4-omni', // Using gpt-4-omni as requested
+                model: 'sonar-pro', // Using sonar-pro as requested
                 messages: messages
             })
         });
