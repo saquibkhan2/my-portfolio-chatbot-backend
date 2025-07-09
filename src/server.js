@@ -39,7 +39,7 @@ app.post('/chat', async (req, res) => {
                 'Authorization': `Bearer ${PERPLEXITY_API_KEY}`
             },
             body: JSON.stringify({
-                model: 'llama-3-8b-instruct', // Using llama-3-8b-instruct
+                model: 'gpt-4-omni', // Using gpt-4-omni as requested
                 messages: messages
             })
         });
